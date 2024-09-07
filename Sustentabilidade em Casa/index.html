@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Sustentabilidade em Casa</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Sustentabilidade em Casa</h1>
+        <p>Encontre dicas simples para tornar sua casa mais sustentável!</p>
+    </header>
+    <main>
+        <main>
+
+        
+        <section class="busca">
+            <input type="text" placeholder="Digite uma área da casa ou uma dica (ex: Cozinha, Economia de Água)" id="campo-pesquisa">
+            <button onclick="buscar()">Buscar</button>
+        </section>
+        <section class="filtros">
+            <button onclick="filtrar('Cozinha')">Cozinha</button>
+            <button onclick="filtrar('Banheiro')">Banheiro</button>
+            <button onclick="filtrar('Sala de Estar')">Sala de Estar</button>
+            <button onclick="filtrar('Jardim')">Jardim</button>
+            <button onclick="filtrar('Geral')">Geral</button>
+        </section>
+        <section class="resultados-pesquisa" id="resultados-pesquisa"></section>
+    </main>
+    <footer>
+        <p>Sustentabilidade em Casa - Feito por Pietro Prata - 2024. Todos os direitos reservados.
+        </p>
+  
+        <a href="https://github.com/Pietrocastro/Sustentabilidade-em-Casa" target="_blank">
+          <i class="fab fa-github"></i>GitHub
+        </a>
+        
+        <a href="https://www.linkedin.com/in/pietrocastroprata/" target="_blank">
+          <i class="fab fa-linkedin"></i>LinkedIn
+        </a>
+    </footer>
+    <script src="dados.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
+
